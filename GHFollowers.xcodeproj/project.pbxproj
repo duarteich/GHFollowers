@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C17F0C29F1E3910077A9A1 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C17F0B29F1E3910077A9A1 /* GFEmptyStateView.swift */; };
 		A811B72729C13D89006A8BE5 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A811B72629C13D89006A8BE5 /* FollowerListVC.swift */; };
 		A811B72929C27854006A8BE5 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A811B72829C27854006A8BE5 /* GFTitleLabel.swift */; };
 		A811B72B29C279D3006A8BE5 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A811B72A29C279D3006A8BE5 /* GFBodyLabel.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04C17F0B29F1E3910077A9A1 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		A811B72629C13D89006A8BE5 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		A811B72829C27854006A8BE5 /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 		A811B72A29C279D3006A8BE5 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
@@ -65,6 +67,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C17F0529F1E30B0077A9A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04C17F0B29F1E3910077A9A1 /* GFEmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04C17F0629F1E3120077A9A1 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				A8C696E029A56C6900D6C8BF /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		04C17F0729F1E3180077A9A1 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				A8C696E229A571A400D6C8BF /* GFTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		04C17F0829F1E31F0077A9A1 /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				A8C5F31329CD07E900BF88D3 /* GFAvatarImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		04C17F0929F1E32D0077A9A1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A811B72C29C3B48E006A8BE5 /* GFAlertVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04C17F0A29F1E34C0077A9A1 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				A811B72829C27854006A8BE5 /* GFTitleLabel.swift */,
+				A811B72A29C279D3006A8BE5 /* GFBodyLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
 		A811B73029C5FF76006A8BE5 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,13 +129,13 @@
 		A811B73129C5FFAD006A8BE5 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				04C17F0A29F1E34C0077A9A1 /* Labels */,
+				04C17F0929F1E32D0077A9A1 /* ViewControllers */,
+				04C17F0829F1E31F0077A9A1 /* ImageViews */,
+				04C17F0729F1E3180077A9A1 /* TextFields */,
+				04C17F0629F1E3120077A9A1 /* Buttons */,
+				04C17F0529F1E30B0077A9A1 /* Views */,
 				A8C5F31029CD073800BF88D3 /* Cells */,
-				A811B72C29C3B48E006A8BE5 /* GFAlertVC.swift */,
-				A8C696E029A56C6900D6C8BF /* GFButton.swift */,
-				A8C696E229A571A400D6C8BF /* GFTextField.swift */,
-				A811B72829C27854006A8BE5 /* GFTitleLabel.swift */,
-				A811B72A29C279D3006A8BE5 /* GFBodyLabel.swift */,
-				A8C5F31329CD07E900BF88D3 /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -257,6 +308,7 @@
 				A811B72B29C279D3006A8BE5 /* GFBodyLabel.swift in Sources */,
 				A83845A729C6057E00FE73A4 /* Follower.swift in Sources */,
 				A811B72929C27854006A8BE5 /* GFTitleLabel.swift in Sources */,
+				04C17F0C29F1E3910077A9A1 /* GFEmptyStateView.swift in Sources */,
 				A83845AC29CA559200FE73A4 /* NetworkManager.swift in Sources */,
 				A811B72729C13D89006A8BE5 /* FollowerListVC.swift in Sources */,
 				A8180556299EBE600099AC06 /* AppDelegate.swift in Sources */,
